@@ -1,0 +1,66 @@
+/* line 1, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 3, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+body {
+  width: 100vw;
+  overflow-x: hidden; }
+
+/* line 8, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+.title {
+  position: relative;
+  background-color: #000;
+  height: 2000px;
+  width: 100%;
+  z-index: -1; }
+  /* line 16, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .title .parallax_layer {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 4em; }
+
+/* line 28, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+.about {
+  padding: 60px 0; }
+  /* line 31, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .about .content-wrapper {
+    max-width: 600px;
+    padding: 0 40px;
+    margin: 0 auto; }
+  /* line 37, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .about h2 {
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 42, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .about p {
+    text-align: justify; }
+
+/* line 47, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+.promise {
+  background-color: #f2f2f2; }
+  /* line 50, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .promise .content-wrapper {
+    max-width: 500px;
+    margin: 0 auto; }
+  /* line 55, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .promise li {
+    display: inline-block;
+    width: 24%; }
+  /* line 60, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .promise h2 {
+    text-align: center; }
+  /* line 64, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .promise h3 {
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 68, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .promise img {
+    width: 100%; }
+
+/*# sourceMappingURL=common.css.map */
