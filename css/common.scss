@@ -1,13 +1,47 @@
+$color-black : #000;
+$color-grey  : #f2f2f2;
+$color-gold  : #afa87e;
+
+$font-header    : 'Montserrat';
+$font-subheader : 'Lora';
+$font-body      : 'Karla';
+
 * { margin: 0; padding: 0; }
 
 body {
     width: 100vw;
     overflow-x: hidden;
+    font-family: $font-body;
+}
+
+section {
+    padding: 60px 0;
+    
+    .content-wrapper {
+        max-width: 550px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+}
+
+h2.header {
+    font: { family: $font-header; }
+    text: { transform: uppercase; }
+    text-align: center;
+}
+
+h3.subheader {
+    font: { family: $font-subheader; style: italic; }
+    text-align: center;
+    color: $color-gold;
+    letter-spacing: 1px;
+    
+    margin-bottom: 40px;
 }
 
 .title {
     position: relative;
-    background-color: #000;
+    background-color: $color-black;
     height: 2000px;
     width: 100%;
     
@@ -26,18 +60,6 @@ body {
 }
 
 .about {
-    padding: 60px 0;
-    
-    .content-wrapper {
-        max-width: 600px;
-        padding: 0 40px;
-        margin: 0 auto;
-    }
-    
-    h2 {
-        text: { transform: uppercase; }
-        text-align: center;
-    }
     
     p {
         text-align: justify;
@@ -45,10 +67,12 @@ body {
 }
 
 .promise {
-    background-color: #f2f2f2;
+    background-color: $color-grey;
+    padding: 30px 0;
     
     .content-wrapper {
         max-width: 500px;
+        padding: 0;
         margin: 0 auto;
     }
     
@@ -59,13 +83,65 @@ body {
     
     h2 {
         text-align: center;
+        font: { family: $font-subheader; style: italic; size: 1.2em; }
+        margin-bottom: 40px;
     }
     
     h3 {
+        font: { family: $font-header; size: .9em; }
         text: { transform: uppercase; align: center; }
     }
     
     img {
+        display: block;
+        width: 60px;
+        margin: 0 auto 10px;
+    }
+}
+
+.product {
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+}
+
+.banner {
+    padding: 0;
+    
+    img {
         width: 100%;
+    }
+}
+
+.contact {
+    background-color: $color-grey;
+    padding: 30px 0 50px;
+    
+    .content-wrapper {
+        max-width: 200px;
+    }
+    
+    h3 {
+        color: $color-black;
+        margin-bottom: 30px;
+    }
+    
+    img {
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    a {
+        display: block;
+        margin-bottom: 20px;
+        
+        color: $color-black;
+        text-decoration: none;
+        
+        &:hover {
+            color: $color-gold;
+        }
     }
 }
