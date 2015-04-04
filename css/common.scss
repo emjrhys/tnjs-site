@@ -16,6 +16,7 @@ body {
 
 section {
     padding: 60px 0;
+    background-color: #fff;
     
     .content-wrapper {
         max-width: 550px;
@@ -31,7 +32,7 @@ h2.header {
 }
 
 h3.subheader {
-    font: { family: $font-subheader; style: italic; }
+    font: { family: $font-subheader; style: italic; weight: 700; }
     text-align: center;
     color: $color-gold;
     letter-spacing: 1px;
@@ -70,6 +71,19 @@ h3.subheader {
     img {
         width: 60px;
     }
+    
+    span {
+        display: none;
+        
+        position: fixed;
+        bottom: 30px;
+        width: 100%;
+        
+        text-align: center;
+        font: { family: $font-subheader; style: italic; size: .9em; weight: 400; }
+        color: #aaa;
+        letter-spacing: 1px;
+    }
 }
 
 .about {
@@ -96,7 +110,7 @@ h3.subheader {
     
     h2 {
         text-align: center;
-        font: { family: $font-subheader; style: italic; size: 1.2em; }
+        font: { family: $font-subheader; style: italic; size: 1.2em; weight: 700; }
         margin-bottom: 40px;
     }
     
