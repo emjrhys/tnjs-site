@@ -127,27 +127,61 @@ h3.subheader {
     width: 100%; }
 
 /* line 145, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+.join-us form {
+  max-width: 600px;
+  margin: 60px auto 0;
+  text-align: center; }
+  /* line 150, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .join-us form h4 {
+    color: #afa87e;
+    letter-spacing: 1px;
+    margin-bottom: 18px; }
+  /* line 156, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .join-us form input, .join-us form button {
+    height: 54px; }
+  /* line 160, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .join-us form input {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    outline: none;
+    padding-left: 14px;
+    margin-right: 8px;
+    width: 70%; }
+    /* line 169, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+    .join-us form input:focus {
+      border: 1px solid #afa87e; }
+  /* line 174, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .join-us form button {
+    background-color: #afa87e;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    width: 25%; }
+
+/* line 186, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
 .contact {
   background-color: #f2f2f2;
   padding: 30px 0 50px; }
-  /* line 149, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 190, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact .content-wrapper {
     max-width: 200px; }
-  /* line 153, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 194, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact h3 {
     color: #000;
     margin-bottom: 30px; }
-  /* line 158, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 199, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact img {
     width: 30px;
     margin-right: 20px; }
-  /* line 163, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 204, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact a {
     display: block;
     margin-bottom: 20px;
     color: #000;
     text-decoration: none; }
-    /* line 170, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+    /* line 211, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
     .contact a:hover {
       color: #afa87e; }
 
