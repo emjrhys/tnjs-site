@@ -23,6 +23,10 @@ section {
         padding: 0 40px;
         margin: 0 auto;
     }
+    
+    p {
+        text-align: justify;
+    }
 }
 
 h2.header {
@@ -86,13 +90,6 @@ h3.subheader {
     }
 }
 
-.about {
-    
-    p {
-        text-align: justify;
-    }
-}
-
 .promise {
     background-color: $color-grey;
     padding: 30px 0;
@@ -127,10 +124,13 @@ h3.subheader {
 }
 
 .product {
-    img {
-        display: block;
-        margin: 0 auto;
+    .content-wrapper {
         max-width: 700px;
+        padding: 0 10px;
+    }
+    
+    img {
+        width: 100%;
     }
 }
 
