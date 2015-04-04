@@ -37,90 +37,100 @@ h3.subheader {
 .title {
   position: relative;
   background-color: #000;
-  height: 2000px;
+  height: 1200px;
   width: 100%;
   z-index: -1; }
   /* line 50, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .title .parallax_wrapper {
+    position: relative;
+    top: 300px;
+    max-width: 300px;
+    margin: 0 auto; }
+  /* line 57, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .title .parallax_layer {
     position: absolute;
-    top: 300px;
-    left: 200px;
-    right: 0;
-    bottom: 0;
+    top: 0;
+    left: 0;
     color: #fff;
     font-size: 4em; }
+  /* line 66, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .title #layer-0 {
+    left: -60px; }
+  /* line 70, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  .title img {
+    width: 60px; }
 
-/* line 64, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+/* line 77, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
 .about p {
   text-align: justify; }
 
-/* line 69, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+/* line 82, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
 .promise {
   background-color: #f2f2f2;
   padding: 30px 0; }
-  /* line 73, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 86, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .promise .content-wrapper {
     max-width: 500px;
     padding: 0;
     margin: 0 auto; }
-  /* line 79, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 92, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .promise li {
     display: inline-block;
     width: 24%; }
-  /* line 84, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 97, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .promise h2 {
     text-align: center;
     font-family: 'Lora';
     font-style: italic;
     font-size: 1.2em;
     margin-bottom: 40px; }
-  /* line 90, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 103, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .promise h3 {
     font-family: 'Montserrat';
     font-size: 0.9em;
     text-transform: uppercase;
     text-align: center; }
-  /* line 95, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 108, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .promise img {
     display: block;
     width: 60px;
     margin: 0 auto 10px; }
 
-/* line 103, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+/* line 116, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
 .product img {
   display: block;
   margin: 0 auto;
   max-width: 700px; }
 
-/* line 110, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+/* line 123, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
 .banner {
   padding: 0; }
-  /* line 113, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 126, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .banner img {
     width: 100%; }
 
-/* line 118, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+/* line 131, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
 .contact {
   background-color: #f2f2f2;
   padding: 30px 0 50px; }
-  /* line 122, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 135, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact .content-wrapper {
     max-width: 200px; }
-  /* line 126, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 139, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact h3 {
     color: #000;
     margin-bottom: 30px; }
-  /* line 131, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 144, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact img {
     width: 30px;
     margin-right: 20px; }
-  /* line 136, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+  /* line 149, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
   .contact a {
     display: block;
     margin-bottom: 20px;
     color: #000;
     text-decoration: none; }
-    /* line 143, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
+    /* line 156, /Users/noah/Dropbox/programming/neutral-cycle/TNJS/css/common.scss */
     .contact a:hover {
       color: #afa87e; }
 

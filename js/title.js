@@ -4,12 +4,14 @@ var layer0 = document.getElementById("layer-0");
 var layer1 = document.getElementById("layer-1");
 var layer2 = document.getElementById("layer-2");
 var layer3 = document.getElementById("layer-3");
+var layer4 = document.getElementById("layer-4");
 
 function parallaxy()
 {   
-	offset3 = (scrollVal * 0.3);
-	offset2 = (scrollVal * 0.2);
-	offset1 = (scrollVal * 0.1);
+    offset4 = (scrollVal * 0.3);
+	offset3 = (scrollVal * 0.2);
+	offset2 = (scrollVal * 0.1);
+	offset1 = 0;
 	offset0 = 0;
 
 	layer0.style.webkitTransform = "translate3d(" + offset0 + "px, " + scrollVal + "px, 0)";
@@ -35,6 +37,12 @@ function parallaxy()
 	layer3.style.msTransform = "translateY(" + offset3 + "px)";
 	layer3.style.OTransform = "translate3d(" + offset3 + "px, " + scrollVal + "px, 0)";
 	layer3.style.transform = "translate3d(" + offset3 + "px, " + scrollVal + "px, 0)";
+    
+    layer4.style.webkitTransform = "translate3d(" + offset4 + "px, " + scrollVal + "px, 0)";
+	layer4.style.MozTransform = "translate3d(" + offset4 + "px, " + scrollVal + "px, 0)";
+	layer4.style.msTransform = "translateY(" + offset4 + "px)";
+	layer4.style.OTransform = "translate3d(" + offset4 + "px, " + scrollVal + "px, 0)";
+	layer4.style.transform = "translate3d(" + offset4 + "px, " + scrollVal + "px, 0)";
 }
 
 

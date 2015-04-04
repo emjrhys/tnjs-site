@@ -42,20 +42,33 @@ h3.subheader {
 .title {
     position: relative;
     background-color: $color-black;
-    height: 2000px;
+    height: 1200px;
     width: 100%;
     
     z-index: -1;
+    
+    .parallax_wrapper {
+        position: relative;
+        top: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
         
     .parallax_layer {
         position: absolute;
-        top: 300px;
-        left: 200px;
-        right: 0;
-        bottom: 0;
+        top: 0;
+        left: 0;
         
         color: #fff;
         font-size: 4em;
+    }
+    
+    #layer-0 {
+        left: -60px;
+    }
+    
+    img {
+        width: 60px;
     }
 }
 
