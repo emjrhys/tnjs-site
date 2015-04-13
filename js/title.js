@@ -8,11 +8,11 @@ var layer4 = document.getElementById("layer-4");
 
 function parallaxy()
 {   
-    offset4 = (scrollVal * 0.3);
-	offset3 = (scrollVal * 0.2);
-	offset2 = (scrollVal * 0.1);
-	offset1 = 0;
-	offset0 = 0;
+    offset4 = (scrollVal * 0.6);
+	offset3 = (scrollVal * 0.3);
+	offset2 = 0;
+	offset1 = -(scrollVal * 0.3);
+	offset0 = -(scrollVal * 0.35);
 
 	layer0.style.webkitTransform = "translate3d(" + offset0 + "px, " + scrollVal + "px, 0)";
 	layer0.style.MozTransform = "translate3d(" + offset0 + "px, " + scrollVal + "px, 0)";

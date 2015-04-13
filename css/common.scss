@@ -53,27 +53,36 @@ h3.subheader {
     z-index: -1;
     
     .parallax_wrapper {
+        opacity: 0;
+        transition: opacity 1s;
+        
         position: relative;
-        top: 300px;
-        max-width: 300px;
+        top: 200px;
+        max-width: 400px;
         margin: 0 auto;
+        
+        &.visible {
+            opacity: 1;
+        }
     }
         
     .parallax_layer {
         position: absolute;
+        width: 200px;
         top: 0;
         left: 0;
+        right: 0;
+        margin: auto;
         
         color: #fff;
-        font-size: 4em;
     }
     
     #layer-0 {
-        left: -60px;
+        left: -320px;
     }
     
     img {
-        width: 60px;
+        width: 200px;
     }
     
     span {
